@@ -1,0 +1,17 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #333;
+    color: #fff;
+}
+
+:lang(en) {
+    font-family: var(--font-figtree);
+}
+
+:lang(fa) {
+    font-family: var(--font-vazir);
+}
